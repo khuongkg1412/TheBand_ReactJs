@@ -1,13 +1,22 @@
-import logo from './logo.svg';
+import Header from './component/header';
+import Slider from './component/slider';
+import Content from './component/content';
+import Footer from './component/footer';
 import './assets/css/styles.css';
 import './assets/css/mobile.css';
 
+
 function App() {
+
   return (
-    <div className="App">
-      <h1>hehe</h1>
+    <div id="main">
+      <Header />
+      <Slider />
+      <Content />
+      <Footer />
     </div>
   );
+
 }
 
 export default App;
